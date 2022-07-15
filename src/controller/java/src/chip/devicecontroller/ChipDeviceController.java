@@ -615,7 +615,7 @@ public class ChipDeviceController {
 
   private native void resumeCommissioning(long deviceControllerPtr);
 
-  private native void updateCommissioningNetworkCredentials(long deviceControllerPtr, 
+  private native void updateCommissioningNetworkCredentials(long deviceControllerPtr,
       NetworkCredentials networkCredentials);
 
   private native void shutdownSubscriptions(long deviceControllerPtr, long devicePtr);
